@@ -1,0 +1,42 @@
+#container {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#pilha {
+    border: 1px solid #ddd;
+    padding: 100px;
+    min-height: 100px;
+    background-color: #fafafa;
+}
+
+#entrada {
+    margin-top: 20px;
+}
+
+#valor {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#adicionar, #remover {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#adicionar:hover, #remover:hover {
+    background-color: #ddd;
+}
+
+.caixa {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    text-align: center;
+}
